@@ -1,5 +1,6 @@
 #Silas Clymer, 3/1/21
-#This is a solver for the "closest points" problem
+#This is a solver for the "closest pair of points" problem from Kleinberg and Tardos' "Algorithm Design" section 5.4
+#Given n points in the plane, find the pair that are closest together
 #Portions of this code were adapted from various sources
 import math
 
@@ -87,7 +88,7 @@ def better_closest(points):
 
 
 
-
+#Example set of 9 points
 P = [(9,2),(2,7),(1,8),(4,3),(5,1),(7,4),(8,6),(3,5),(6,9)]
 
 print('O(n^2):')
